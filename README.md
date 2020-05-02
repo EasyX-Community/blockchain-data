@@ -4,7 +4,7 @@ Export of the Energi3 Blockchain
 #### To import:
 > cd $HOME<br />
 > rm -rf $HOME/energi3-blockchain-data/<br />
-> git clone https://github.com/leshacat/energi3-blockchain-data $HOME/energi3-blockchain-data//<br />
+> git clone https://github.com/leshacat/energi3-blockchain-data $HOME/energi3-blockchain-data/<br />
 > rm $HOME/energi3-blockchain-data/README.md<br />
 > mv $HOME/energi3-blockchain-data/*.tar.gz* $HOME<br />
 > rm -rf $HOME/energi3-tmp/<br />
