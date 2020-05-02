@@ -15,7 +15,4 @@ Export of the Energi3 Blockchain
 #### To Export:
 > Coming soon...
 <br />
-
---------
-<br />
 EOF
