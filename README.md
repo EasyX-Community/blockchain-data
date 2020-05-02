@@ -2,16 +2,15 @@
 Export of the Energi3 Blockchain
 
 #### To import:
-> cd $HOME<br />
-> rm -rf $HOME/tmp/<br />
-> git clone https://github.com/leshacat/energi3-blockchain-data $HOME/tmp/<br />
-> rm $HOME/tmp/README.md<br />
-> mv $HOME/tmp/*.tar.gz* $HOME
-> sudo service energi3 stop<br />
-> rm -rf .energicore3/energi3/chaindata/*<br />
-> tar zxvf energi3-chaindata.backup.tar.gz.*<br />
-> sudo service energi3 start``<br />
-
+cd $HOME<br />
+git clone https://github.com/leshacat/energi3-blockchain-data $HOME/energi3-tmp/<br />
+rm $HOME/energi3-tmp/README.md<br />
+mv $HOME/energi3-tmp/*.tar.gz* $HOME<br />
+rm -rf $HOME/energi3-tmp/<br />
+sudo service energi3 stop<br />
+rm -rf .energicore3/energi3/chaindata/*<br />
+tar zxvf energi3-chaindata.backup.tar.gz.*<br />
+sudo service energi3 start<br />
 
 #### To Export:
 > Coming soon...
