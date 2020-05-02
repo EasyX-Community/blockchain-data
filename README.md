@@ -14,7 +14,8 @@ Export of the Energi3 Blockchain
 
 #### To Export:
 > sudo service energi3 stop<br />
-> tar cvzf - .energicore3/energi3/chaindata/ | split --bytes=90MB - ~/energi3-blockchain-data/energi3-chaindata.backup.tar.gz.<br />
+> mkdir -p ${HOME}/energi3-blockchain-data/<br />
+> tar cvzf - .energicore3/energi3/chaindata/ | split --bytes=90MB - ${HOME}/energi3-blockchain-data/energi3-chaindata.backup.tar.gz.<br />
 > sudo service energi3 start<br />
 <br />
 EOF
