@@ -44,7 +44,7 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 > rm -rf $HOME/pexa-chaindata.backup.tar.gz<br />
 > pexa-cli stop<br />
 > tar cvzpf $HOME/pexa-chaindata.backup.tar.gz \\<br />
-> .pexa/energi3/blocks/\* .pexa/energi3/chainstate/\*<br />
+> .pexa/blocks/\* .pexa/chainstate/\*<br />
 > pexad -daemon=1 -txindex<br />
 <br />
 
