@@ -1,6 +1,6 @@
 # Blockchain Data
 
-Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST.
+Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex -addressindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST.
 
 - Energi - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data
 - Pexacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data
