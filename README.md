@@ -2,7 +2,10 @@
 
 Below are a few blockchains data for you to download if you need to sync quickly. They are updated weekly on Sunday @ 0000 EST.
 
-- 
+- NRG / Energi - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data
+- PEXA / Pexacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data
+- PHL / Placeholders - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data
+- TNA / Taonacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data
 
 # energi3-blockchain-data
 Instructions to download and install Energi3 Blockchain (hosted on a private server)
