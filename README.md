@@ -1,3 +1,9 @@
+# Blockchain Data (Hosted on private server)
+
+Below are a few blockchains data for you to download if you need to sync quickly. They are updated weekly on Sunday @ 0000 EST.
+
+- 
+
 # energi3-blockchain-data
 Instructions to download and install Energi3 Blockchain (hosted on a private server)
 
