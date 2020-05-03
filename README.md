@@ -3,6 +3,8 @@ Export of the Energi3 Blockchain
 
 #### To import:
 > cd $HOME<br />
+> mkdir -p $HOME/energi3-blockchain-data/<br />
+> rm -rf $HOME/energi3-blockchain-data/\*.tar.gz\*<br />
 > wget -O $HOME/energi3-blockchain-data/energi3-chaindata.backup.tar.gz \\<br />
 > https://hn1.easyx.cc/energi3-blockchain/energi3-chaindata.backup.tar.gz<br />
 > sudo service energi3 stop<br />
