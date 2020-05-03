@@ -5,6 +5,7 @@ Below are a few blockchains data for you to download if you need to sync quickly
 - Energi - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data
 - Pexacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data
 - Placeholders - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data
+- ZCoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#xzc-blockchain-data
 - Taonacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data
 
  ~ MooCat
@@ -68,6 +69,27 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 > placeh-cli stop<br />
 > tar cvzpf $HOME/phl-chaindata.backup.tar.gz \\<br />
 > .placeh/blocks/ .placeh/chainstate/<br />
+> placehd -daemon=1 -txindex -addressindex<br />
+<br />
+
+# xzc-blockchain-data
+Instructions to download and install ZCoin Blockchain (hosted on a private server)
+
+#### To import:
+> cd $HOME<br />
+> rm -rf $HOME/xzc-chaindata.backup.tar.gz<br />
+> wget https://hn1.easyx.cc/blockchain-data/xzc-chaindata.backup.tar.gz<br />
+> zcoin-cli stop<br />
+> rm -rf .zcoin/blocks/\* .zcoin/blocks/index/\* .zcoin/chainstate/\*<br />
+> tar xvzf xzc-chaindata.backup.tar.gz<br />
+> zcoind -daemon=1 -txindex -addressindex<br />
+
+#### To Export:
+> cd $HOME<br />
+> rm -rf $HOME/xzc-chaindata.backup.tar.gz<br />
+> zcoin-cli stop<br />
+> tar cvzpf $HOME/xzc-chaindata.backup.tar.gz \\<br />
+> .zcoin/blocks/ .zcoin/chainstate/<br />
 > placehd -daemon=1 -txindex -addressindex<br />
 <br />
 
