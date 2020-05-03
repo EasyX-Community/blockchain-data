@@ -14,6 +14,7 @@ Instructions to download and install Energi3 Blockchain (hosted on a private ser
 
 #### To import:
 > cd $HOME<br />
+> rm -rf $HOME/energi3-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/energi3-chaindata.backup.tar.gz<br />
 > sudo service energi3 stop<br />
 > rm -rf .energicore3/energi3/chaindata/\*<br />
@@ -33,6 +34,7 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 
 #### To import:
 > cd $HOME<br />
+> rm -rf $HOME/pexa-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/pexa-chaindata.backup.tar.gz<br />
 > pexa-cli stop<br />
 > rm -rf .pexa/blocks/\* .pexa/chainstate/\*<br />
@@ -53,6 +55,7 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 
 #### To import:
 > cd $HOME<br />
+> rm -rf $HOME/phl-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/phl-chaindata.backup.tar.gz<br />
 > placehd-cli stop<br />
 > rm -rf .placeh/blocks/\* .placeh/chainstate/\*<br />
@@ -73,6 +76,7 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 
 #### To import:
 > cd $HOME<br />
+> rm -rf $HOME/tna-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/tna-chaindata.backup.tar.gz<br />
 > taona-cli stop<br />
 > rm -rf .taona/blocks/\* .taona/chainstate/\*<br />
