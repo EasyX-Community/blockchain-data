@@ -37,7 +37,7 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 > rm -rf $HOME/pexa-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/pexa-chaindata.backup.tar.gz<br />
 > pexa-cli stop<br />
-> rm -rf .pexa/blocks/\* .pexa/chainstate/\*<br />
+> rm -rf .pexa/blocks/\* .pexa/blocks/index/\* .pexa/chainstate/\*<br />
 > tar xvzf pexa-chaindata.backup.tar.gz<br />
 > pexad -daemon=1 -txindex -addressindex<br />
 
@@ -58,7 +58,7 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 > rm -rf $HOME/phl-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/phl-chaindata.backup.tar.gz<br />
 > placehd-cli stop<br />
-> rm -rf .placeh/blocks/\* .placeh/chainstate/\*<br />
+> rm -rf .placeh/blocks/\* .placeh/blocks/index/\* .placeh/chainstate/\*<br />
 > tar xvzf phl-chaindata.backup.tar.gz<br />
 > placehd -daemon=1 -txindex -addressindex<br />
 
@@ -79,7 +79,7 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 > rm -rf $HOME/tna-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/tna-chaindata.backup.tar.gz<br />
 > taona-cli stop<br />
-> rm -rf .taona/blocks/\* .taona/chainstate/\*<br />
+> rm -rf .taona/blocks/\* .taona/blocks/index/\* .taona/chainstate/\*<br />
 > tar xvzf tna-chaindata.backup.tar.gz<br />
 > taonad -daemon=1 -txindex -addressindex<br />
 
