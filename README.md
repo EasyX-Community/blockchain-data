@@ -93,6 +93,27 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 > taonad -daemon=1 -txindex -addressindex<br />
 <br />
 
+# malw-blockchain-data
+Instructions to download and install Malwarechain Blockchain (hosted on a private server)
+
+#### To import:
+> cd $HOME<br />
+> rm -rf $HOME/malw-chaindata.backup.tar.gz<br />
+> wget https://hn1.easyx.cc/blockchain-data/malw-chaindata.backup.tar.gz<br />
+> malwarechain-cli stop<br />
+> rm -rf .malwarechain/blocks/\* .malwarechain/blocks/index/\* .malwarechain/chainstate/\*<br />
+> tar xvzf malw-chaindata.backup.tar.gz<br />
+> malwarechaind -daemon=1 -txindex -addressindex<br />
+
+#### To Export:
+> cd $HOME<br />
+> rm -rf $HOME/malw-chaindata.backup.tar.gz<br />
+> malwarechain-cli stop<br />
+> tar cvzpf $HOME/malw-chaindata.backup.tar.gz \\<br />
+> .malwarechain/blocks/ .malwarechain/chainstate/<br />
+> malwarechaind -daemon=1 -txindex -addressindex<br />
+<br />
+
 # xzc-blockchain-data
 Instructions to download and install ZCoin Blockchain (hosted on a private server)
 
