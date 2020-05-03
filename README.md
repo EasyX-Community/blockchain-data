@@ -1,5 +1,5 @@
 # energi3-blockchain-data
-Export of the Energi3 Blockchain
+Instructions to download and install Energi3 Blockchain (hosted on a private server)
 
 #### To import:
 > cd $HOME<br />
