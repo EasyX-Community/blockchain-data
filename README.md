@@ -6,6 +6,7 @@ Below are a few blockchains data for you to download if you need to sync quickly
 - Pexacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data
 - Placeholders - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data
 - Taonacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data
+- Malwarechain - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#malw-blockchain-data
 - ZCoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#xzc-blockchain-data
 
  ~ MooCat
