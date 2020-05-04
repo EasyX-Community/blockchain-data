@@ -4,6 +4,7 @@ Below are a few blockchains data for you to download if you need to sync quickly
 
 - [NRG / Energi Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data "Energi Blockchain Download")
 - [PEXA / Pexacoin Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data "Pexacoin Blockchain Download")
+- [BITC / BitCash Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#bitc-blockchain-data "BitCash Blockchain Download")
 - [PHL / Placeholders Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data "Placeholders Blockchain Download")
 - [TNA / Taonacoin Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data "Taonacoin Blockchain Download")
 - [MALW / Malwarechain Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#malw-blockchain-data "Malwarechain Blockchain Download")
@@ -54,6 +55,28 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
+# bitc-blockchain-data
+Instructions to download and install BitCash Blockchain (hosted on a private server)
+
+#### To import:
+> cd $HOME<br />
+> rm -rf $HOME/bitc-chaindata.backup.tar.gz<br />
+> wget https://hn1.easyx.cc/blockchain-data/bitc-chaindata.backup.tar.gz<br />
+> bitcash-cli stop<br />
+> rm -rf .bitcash/blocks/\* .bitcash/blocks/index/\* .bitcash/chainstate/\*<br />
+> tar xvzf bitc-chaindata.backup.tar.gz<br />
+> bitcashd -daemon=1 -txindex -addressindex<br />
+
+#### To Export:
+> cd $HOME<br />
+> rm -rf $HOME/bitc-chaindata.backup.tar.gz<br />
+> bitcash-cli stop<br />
+> tar cvzpf $HOME/bitc-chaindata.backup.tar.gz \\<br />
+> .bitcash/blocks/ .bitcash/chainstate/<br />
+> bitcashd -daemon=1 -txindex -addressindex<br />
+
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
+
 # phl-blockchain-data
 Instructions to download and install Placeholders Blockchain (hosted on a private server)
 
@@ -61,7 +84,7 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 > cd $HOME<br />
 > rm -rf $HOME/phl-chaindata.backup.tar.gz<br />
 > wget https://hn1.easyx.cc/blockchain-data/phl-chaindata.backup.tar.gz<br />
-> placehd-cli stop<br />
+> placeh-cli stop<br />
 > rm -rf .placeh/blocks/\* .placeh/blocks/index/\* .placeh/chainstate/\*<br />
 > tar xvzf phl-chaindata.backup.tar.gz<br />
 > placehd -daemon=1 -txindex -addressindex<br />
