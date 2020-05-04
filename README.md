@@ -53,7 +53,6 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 > tar cvzpf $HOME/pexa-chaindata.backup.tar.gz \\<br />
 > .pexa/blocks/ .pexa/chainstate/<br />
 > pexad -daemon=1 -txindex -addressindex<br />
-<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
@@ -78,7 +77,6 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 > tar cvzpf $HOME/phl-chaindata.backup.tar.gz \\<br />
 > .placeh/blocks/ .placeh/chainstate/<br />
 > placehd -daemon=1 -txindex -addressindex<br />
-<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
@@ -103,7 +101,6 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 > tar cvzpf $HOME/tna-chaindata.backup.tar.gz \\<br />
 > .taona/blocks/ .taona/chainstate/<br />
 > taonad -daemon=1 -txindex -addressindex<br />
-<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
@@ -128,7 +125,6 @@ Instructions to download and install Malwarechain Blockchain (hosted on a privat
 > tar cvzpf $HOME/malw-chaindata.backup.tar.gz \\<br />
 > .malwarechain/blocks/ .malwarechain/chainstate/<br />
 > malwarechaind -daemon=1 -txindex -addressindex<br />
-<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
@@ -153,7 +149,6 @@ Instructions to download and install ZCoin Blockchain (hosted on a private serve
 > tar cvzpf $HOME/xzc-chaindata.backup.tar.gz \\<br />
 > .zcoin/blocks/ .zcoin/chainstate/<br />
 > zcoind -daemon=1 -txindex -addressindex<br />
-<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
