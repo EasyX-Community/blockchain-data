@@ -2,12 +2,12 @@
 
 Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex -addressindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST. All downloads are located here: https://hn1.easyx.cc/blockchain-data/
 
-- Energi - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data
-- Pexacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data
-- Placeholders - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data
-- Taonacoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data
-- Malwarechain - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#malw-blockchain-data
-- ZCoin - https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#xzc-blockchain-data
+- [Energi](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data "Energi Blockchain Download")
+- [Pexacoin](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data "Pexacoin Blockchain Download")
+- [Placeholders](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#phl-blockchain-data "Placeholders Blockchain Download")
+- [Taonacoin](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#tna-blockchain-data "Taonacoin Blockchain Download")
+- [Malwarechain](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#malw-blockchain-data "Malwarechain Blockchain Download")
+- [ZCoin](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#xzc-blockchain-data "ZCoin Blockchain Download")
 
  ~ MooCat
 
