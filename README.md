@@ -31,6 +31,8 @@ Instructions to download and install Energi3 Blockchain (hosted on a private ser
 > sudo service energi3 start<br />
 <br />
 
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
+
 # pexa-blockchain-data
 Instructions to download and install Pexacoin Blockchain (hosted on a private server)
 
@@ -51,6 +53,8 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 > .pexa/blocks/ .pexa/chainstate/<br />
 > pexad -daemon=1 -txindex -addressindex<br />
 <br />
+
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
 # phl-blockchain-data
 Instructions to download and install Placeholders Blockchain (hosted on a private server)
@@ -73,6 +77,8 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 > placehd -daemon=1 -txindex -addressindex<br />
 <br />
 
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
+
 # tna-blockchain-data
 Instructions to download and install Taonacoin Blockchain (hosted on a private server)
 
@@ -93,6 +99,8 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 > .taona/blocks/ .taona/chainstate/<br />
 > taonad -daemon=1 -txindex -addressindex<br />
 <br />
+
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
 # malw-blockchain-data
 Instructions to download and install Malwarechain Blockchain (hosted on a private server)
@@ -115,6 +123,8 @@ Instructions to download and install Malwarechain Blockchain (hosted on a privat
 > malwarechaind -daemon=1 -txindex -addressindex<br />
 <br />
 
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
+
 # xzc-blockchain-data
 Instructions to download and install ZCoin Blockchain (hosted on a private server)
 
@@ -135,5 +145,7 @@ Instructions to download and install ZCoin Blockchain (hosted on a private serve
 > .zcoin/blocks/ .zcoin/chainstate/<br />
 > zcoind -daemon=1 -txindex -addressindex<br />
 <br />
+
+[Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
 EOF
