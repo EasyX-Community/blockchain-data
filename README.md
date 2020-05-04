@@ -61,7 +61,7 @@ Instructions to download and install BitCash Blockchain (hosted on a private ser
 #### To import:
 > cd $HOME<br />
 > rm -rf $HOME/bitc-chaindata.backup.tar.gz<br />
-> wget https://hn1.easyx.cc/blockchain-data/bitc-chaindata.backup.tar.gz<br />
+> wget https://www.easyx.cc/blockchain-data/bitc-chaindata-backup.tar.gz<br />
 > bitcash-cli stop<br />
 > rm -rf .bitcash/blocks/\* .bitcash/blocks/index/\* .bitcash/chainstate/\*<br />
 > tar xvzf bitc-chaindata.backup.tar.gz<br />
