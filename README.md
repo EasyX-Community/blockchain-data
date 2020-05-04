@@ -32,8 +32,6 @@ Instructions to download and install Energi3 Blockchain (hosted on a private ser
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
-<br />
-
 # pexa-blockchain-data
 Instructions to download and install Pexacoin Blockchain (hosted on a private server)
 
@@ -55,8 +53,6 @@ Instructions to download and install Pexacoin Blockchain (hosted on a private se
 > pexad -daemon=1 -txindex -addressindex<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
-
-<br />
 
 # phl-blockchain-data
 Instructions to download and install Placeholders Blockchain (hosted on a private server)
@@ -80,8 +76,6 @@ Instructions to download and install Placeholders Blockchain (hosted on a privat
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
-<br />
-
 # tna-blockchain-data
 Instructions to download and install Taonacoin Blockchain (hosted on a private server)
 
@@ -103,8 +97,6 @@ Instructions to download and install Taonacoin Blockchain (hosted on a private s
 > taonad -daemon=1 -txindex -addressindex<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
-
-<br />
 
 # malw-blockchain-data
 Instructions to download and install Malwarechain Blockchain (hosted on a private server)
@@ -128,8 +120,6 @@ Instructions to download and install Malwarechain Blockchain (hosted on a privat
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
 
-<br />
-
 # xzc-blockchain-data
 Instructions to download and install ZCoin Blockchain (hosted on a private server)
 
@@ -151,7 +141,5 @@ Instructions to download and install ZCoin Blockchain (hosted on a private serve
 > zcoind -daemon=1 -txindex -addressindex<br />
 
 [Back to top](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#blockchain-data "Back to top")
-
-<br />
 
 EOF
