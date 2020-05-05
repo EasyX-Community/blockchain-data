@@ -4,7 +4,7 @@ Below are a few blockchains data for you to download if you need to sync quickly
 
 **All downloads are located here:**<br />
 Server 1 HTTPS: https://hn1.easyx.cc/blockchain-data/<br />
-Server 2 HTTP: http://easyx.cc:8081/blockchain-data/
+Server 2 HTTP: http://hn1.easyx.cc:8081/blockchain-data/
 
 **Note:** If the download file is not found or you see a DO_NOT_XFER file inside the directory it means the blockchains are being updated and you should wait until this file disappears.
 
