@@ -2,7 +2,9 @@
 
 Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex -addressindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST.
 
-All downloads are located here: https://hn1.easyx.cc/blockchain-data/ 
+**All downloads are located here:**<br />
+Server 1 HTTPS: https://hn1.easyx.cc/blockchain-data/<br />
+Server 2 HTTP: http://easyx.cc:8081/blockchain-data/
 
 **Note:** If the download file is not found or you see a DO_NOT_XFER file inside the directory it means the blockchains are being updated and you should wait until this file disappears.
 
