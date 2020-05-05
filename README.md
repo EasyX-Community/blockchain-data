@@ -6,7 +6,7 @@ All downloads are located here: https://hn1.easyx.cc/blockchain-data/
 
 **Note:** If the download file is not found or you see a DO_NOT_XFER file inside the directory it means the blockchains are being updated and you should wait until this file disappears.
 
-**Note:** There will be Windows instructions soon. These same files can be extracted into a new folder and copied to your %APPDATA%/BitCash/ directory.
+**Note:** There will be Windows instructions soon. These same files can be extracted into a new folder and copied to your %APPDATA%/CoinName/ directory.
 
 - [NRG / Energi Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data "Energi Blockchain Download")
 - [PEXA / Pexacoin Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data "Pexacoin Blockchain Download")
