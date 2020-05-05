@@ -1,6 +1,10 @@
 # Blockchain Data
 
-Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex -addressindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST. All downloads are located here: https://hn1.easyx.cc/blockchain-data/
+Below are a few blockchains data for you to download if you need to sync quickly. If the walletd is able to I have enabled `-txindex -addressindex` for those who need the transaction index as well. They are hosted on a private server and are updated weekly on Sunday @ 0000 EST.
+
+All downloads are located here: https://hn1.easyx.cc/blockchain-data/ 
+
+If the download file is not found or you see a DO_NOT_XFER file inside the directory it means the blockchains are being updated and you should wait until this file disappears.
 
 - [NRG / Energi Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#energi3-blockchain-data "Energi Blockchain Download")
 - [PEXA / Pexacoin Blockchain Download](https://github.com/EasyX-Community/blockchain-data/blob/master/README.md#pexa-blockchain-data "Pexacoin Blockchain Download")
